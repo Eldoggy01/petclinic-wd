@@ -27,7 +27,7 @@ public class PetclinicRestTest {
         String serverResponseBody = given()
                 .contentType("application/json")
                 .accept("application/json")
-                .baseUri(BASE_URI)
+                .baseUri(BASE_URI)// уоуоуоу
                 .when()
 // GET /api/owners - все хозяева
                 .get("/api/owners")

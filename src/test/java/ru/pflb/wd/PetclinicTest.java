@@ -85,7 +85,7 @@ public class PetclinicTest {
 // считываение Telephone
         Long telephone = Long.valueOf(driver.findElement(By.xpath("//th[text()='Telephone']/following-sibling::td")).getText());
 // прибавление единицы для нового телефона
-        Long newTelephone = telephone += 1;
+        Long newTelephone = telephone += 1; //ухааааааааааааааааааааааааааа
 
 // нажатие кнопки редактировать пользователя Edit Owner
         driver.findElement(By.xpath("//a[contains(@href, '/edit') and contains(text(), 'Owner')]")).click();
